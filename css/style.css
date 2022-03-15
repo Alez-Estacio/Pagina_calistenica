@@ -1,0 +1,73 @@
+
+body
+{
+    background-color: #19191b;
+}
+
+
+
+.logo{
+    width: 40%;
+    text-align: center;
+    display: flex;
+}
+
+.titulo{
+    text-transform: uppercase;
+    border-style: groove;
+
+}
+
+
+.Menu li{
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+    border: solid lpx red ;
+    padding: 20px;
+    text-size-adjust: 14pt;
+
+}
+
+.Menu{
+    text-align: center;
+    
+
+}
+
+.imagenPrincipal{
+
+width: 70%;
+display: block;
+}
+
+.parrafoPrincipal{
+    text-align: justify;
+    font-size: 1.4em;
+    width: 70%;
+    line-height: 35px;
+    font-family:Verdana;
+    margin-top: 35px;
+    margin-left: 160px;
+}
+
+.linkVerMas{
+    text-decoration: none;
+    color: royalblue;
+    font-size: 1.8em ;
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+
+}
+
+.footer{
+    text-align: center;
+    color:#ffffff ;
+    padding: 30px 0;
+    background-color: rgba(0, 6, 88, 0.63);
+
+
+
+}
+

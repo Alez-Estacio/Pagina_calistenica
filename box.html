@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: deeppink;
+        }
+        
+        .box1,
+        .box2,
+        .box3 {
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            display: inline-block;
+        }
+        
+        .box1 {
+            background-color: crimson;
+            font-size: 1.2em;
+        }
+        
+        .box2 {
+            background-color: darkcyan;
+        }
+        
+        .box3 {
+            background-color: darkorange;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                background-color: gold;
+            }
+            .box1 {
+                font-size: 1.5em;
+                width: 80%;
+            }
+            .box2 {
+                display: none;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            body {
+                background-color: #000;
+            }
+            .box1 {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, dolorem! Iste assumenda cumque quos ad, laudantium iure vero a molestiae ipsam sint? Repellendus perferendis ducimus rerum esse placeat explicabo rem!</p>
+    </div>
+    <div class="box2">
+
+    </div>
+    <div class="box3">
+
+    </div>
+</body>
+
+</html>
